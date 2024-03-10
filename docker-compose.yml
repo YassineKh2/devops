@@ -22,9 +22,8 @@ services:
       - MYSQL_DATABASE=timesheet-devops-db
     ports:
       - "3307:3306"
-    volumes:
-      - mysql-data:/var/lib/mysql
     
+
 
 
 
